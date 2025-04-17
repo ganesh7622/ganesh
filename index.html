@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.one{
+    width: 250px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 20px;
+    display: block;
+    margin-top: 10%;
+    font-size: 13px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
+@media screen and (max-width:764px){
+    div{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .one{
+        margin: 20px auto;
+    }
+}
+
+    </style>
+    <div>
+        <div class="one">
+            <h1>Introduction :</h1><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit assumenda facilis illum harum fugit libero et? Alias, repellat harum.
+        </div>
+        <div class="one">
+            <h1>Introduction :</h1><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit assumenda facilis illum harum fugit libero et? Alias, repellat harum.
+        </div>
+        <div class="one">
+            <h1>Introduction :</h1><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit assumenda facilis illum harum fugit libero et? Alias, repellat harum.
+        </div>
+    </div>
+</body>
+</html>
